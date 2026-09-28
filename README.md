@@ -158,7 +158,17 @@ make_tables.py           prints Tables 3 and 4
 ```
 
 ## Citation
-
+```bibtex
+@misc{i̇ncidelen2026sorryrobothappyhuman,
+      title={Sorry Robot, Happy Human: Vision-Language Models Read Only One of Two Legible Typographic Layers}, 
+      author={Mert İncidelen and Yamen Kashkash and Asya Berker and Murat Aydoğan},
+      year={2026},
+      eprint={2609.31403},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2609.31403}, 
+}
+```
 
 The images were made with Decoy Font by Eric Lu (Mixfont):
 https://www.mixfont.com/experiments/decoy-font
