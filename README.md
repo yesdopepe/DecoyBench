@@ -97,7 +97,7 @@ Models evaluated in the paper:
 | Gemini | `gemini-3.6-flash`, `gemini-3.5-flash-lite` |
 | Claude | `claude-sonnet-5`, `claude-haiku-4-5-20251001` |
 
-All runs used each provider's default reasoning setting and a 16,384 output-token limit.
+All runs were done with no reasoning and a 16,384 output-token limit.
 
 When all 12 runs (6 models × 2 resolutions) are finished, print Tables 3 and 4:
 
