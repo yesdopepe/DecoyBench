@@ -159,14 +159,27 @@ make_tables.py           prints Tables 3 and 4
 
 ## Citation
 ```bibtex
-@misc{i̇ncidelen2026sorryrobothappyhuman,
-      title={Sorry Robot, Happy Human: Vision-Language Models Read Only One of Two Legible Typographic Layers}, 
-      author={Mert İncidelen and Yamen Kashkash and Asya Berker and Murat Aydoğan},
-      year={2026},
-      eprint={2609.31403},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2609.31403}, 
+@inproceedings{incidelen-etal-2026-sorry,
+    title = "Sorry Robot, Happy Human: Vision-Language Models Read Only One of Two Legible Typographic Layers",
+    author = "{\.I}ncidelen, Mert  and
+      Kashkash, Yamen  and
+      Berker, Asya  and
+      Aydogan, Murat",
+    editor = "T.Y.S.S., Santosh  and
+      Agarwal, Amit  and
+      Gupta, Vivek  and
+      Kementchedjhieva, Yova  and
+      Garimella, Aparna  and
+      Hou, Yufang",
+    booktitle = "The Proceedings of Workshop on Document Intelligence and Understanding",
+    month = oct,
+    year = "2026",
+    address = "Budapest, Hungary",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2026.docinsights-1.20/",
+    pages = "282--286",
+    ISBN = "979-8-89176-477-4",
+    abstract = "Vision-language models (VLMs), despite their success in optical character recognition (OCR) tasks, are vulnerable to typographic attacks and have a fragile structure for images with multiple text layers. In this study, the DecoyBench dataset was created using the Decoy Font method. The dataset consists of 300 images, each containing text with sharp contour lines superimposed on another text with soft shading. Six recent closed-source models from three different model families were evaluated using this dataset under two different prompting conditions (naive and guided) and at two different resolutions (512 {\texttimes} 512 and 64 {\texttimes} 64). A validation study showed that human participants could read both text layers with high accuracy. In contrast, the models, with most variants and both prompting methods, read the contour text with near-human accuracy at high resolution, but almost never fully extracted the shading text. At low resolution, the contour text could not be read by either the models or humans, while the shading text could be extracted with high accuracy. The findings indicate that the evaluated VLMs exhibit a consistent behavioral limitation when processing typographic structures containing multiple spatial frequency layers."
 }
 ```
 
